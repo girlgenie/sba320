@@ -9,7 +9,7 @@ const Card = () => {
     <>
       <div className="card" style={style}>
         <img
-          src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/CD23BFF8AB733DC687DC58A26D99693E00FFF1D151BD13DAE97A9C528801E54F/scale?width=1200&amp;aspectRatio=1.78&amp;format=webp"
+          src="https://external-preview.redd.it/N_bB0Oszfuks9wLTax6viC4Hh9FzHgpMcpYiuUHoQQU.jpg?auto=webp&s=22d6a707521ffee7ea809ec405a10477ee7bd2b8"
           className="card-img-iron-man"
           alt="Iron Man"
         />
@@ -19,7 +19,7 @@ const Card = () => {
             Some quick example text to build on the card title and make up the
             bulk of the card's content.
           </p>
-          <a href="#" className="btn btn-danger">
+          <a href="#" className="btn btn-primary">
             Go somewhere
           </a>
         </div>
