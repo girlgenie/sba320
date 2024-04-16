@@ -9,7 +9,18 @@ function App() {
   async function getUsers() {
     try {
       const response = await axios.get("https://jsonplaceholder.typicode.com/users");
+      console.log(users)
       setUsers(response.data);
+
+      //process the data
+      users.forEach(users => {
+        console.log(`Username: ${users.username}`);
+        console.log(`Address: ${users.address}`);
+        console.log(`Email: ${users.email}`);
+        console.log(`Website: ${users.website}`)
+      });
+
+      
     } catch (error) {
       console.log(error);
     }
